@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+   <head>
+      <meta charset="UTF-8" />
+      <title>管理</title>
+      <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" media="all" href="css/daterangepicker.css" />
+      <link rel="stylesheet" type="text/css" href="css/main.css"> 
+      <link type="text/css" rel="stylesheet" href="css/select2.min.css"/>   
+	  <script type="text/javascript" defer async="true" src="js/require.js" data-main="js/main"></script>
+   </head>
+   <body>
+   	    <!-- <input type="text" id="start">
+   	    <input type="text" id="end"> -->
+	<div class="tablehead">
+		<input type="button" value="增加" class="btn btn-success" />
+		<input type="button" value="删除" class="btn btn-success" />
+		<input type="button" value="修改" class="btn btn-success" />
+		<input type="button" value="封存" class="btn btn-success" />
+		<input type="button" value="启封" class="btn btn-success" />
+		<input style="float:right;margin-left:10px;margin-right:30px;" type="button" value="查询" class="btn btn-success" />
+		<input style="float:right;" id="selectname" type="text" placeholder="请输入姓名"/>
+		<div style="float:right;margin-right:20px;">
+			<label>注册时间范围：</label>
+			<input type="text" id="end" readonly="readonly">
+			<label>-</label>
+   	    	<input type="text" id="start" readonly="readonly">
+		</div>
+   	    
+	</div>
+	<div class="clear"></div>
+	 <table id="myTable">
+        <thead>
+            <tr>
+                <th><input type="checkbox" name="selected" />全选</th>
+                <th>编码</th>
+                <th>姓名</th>
+                <th>状态</th>
+                <th>创建时间</th>
+                <th>最后登录时间</th>
+                <th>账号类型</th>
+                <th>备注</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+    <div class="shsadow">
+    	<p><span>X</span></p>
+    	<div id="add">
+	    	<table>
+	    		<tr>
+	    			<td>编码:</td>
+	    			<td><input type="text" id="number" /></td>
+	    		</tr>
+	    		<tr>
+	    			<td>姓名:</td>
+	    			<td><input type="text" id="name" /></td>
+	    		</tr>
+	    		<tr>
+	    			<td>状态:</td>
+	    			<td><input type="text" id="state" /></td>
+	    		</tr>
+	    		<tr>
+	    			<td>账号类型:</td>
+	    			<td>
+		    			<select class="combox" id="sel_recommender" name="recommenderId"> 
+							<option value="">请选择...</option>
+							<optgroup label="1213">
+								<option value="111">111</option>
+								<option value="111">111</option>
+								<option value="111">111</option>
+								<option value="111">111</option>
+							</optgroup>
+							<optgroup label="3211">
+								<option value="222">222</option>
+								<option value="22">22</option>
+								<option value="22">22</option>
+								<option value="22">22</option>
+							</optgroup>
+						</select>
+					</td>
+	    		</tr>
+	    		<tr>
+	    			<td>备注:</td>
+	    			<td><textarea cols="15" rows="2" id="remark"></textarea></td>
+	    		</tr>
+	    		<tr>
+	    			<td colspan="2"><input type="button" value="增加" class="btn btn-success" id="submit" /><input type="button" value="修改" class="btn btn-success" id="change" /></td>
+	    		</tr>
+	    	</table>
+	    </div>
+    </div>
+   </body>
+</html>

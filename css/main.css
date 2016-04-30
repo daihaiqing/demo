@@ -1,0 +1,113 @@
+html,body{
+	min-width: 1000px !important;
+}
+#start,#end{
+	text-align: right;
+}
+input[type="text"]{
+	border: 1px solid grey;
+	border-radius: 10px;
+	height:28px;
+	line-height: 28px;
+}
+table{
+	width: 100%;
+}
+th,td{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+#myTable thead{
+	background-color: rgba(100,100,100,0.5);
+}
+.selectchange{
+	margin-left: 50px;
+	margin-right: 20px;
+}
+.paging{
+	margin-top: 10px;
+}
+.clear{
+	clear: both;
+}
+.tablehead{
+	height: 30px;
+	height: 30px;
+}
+#myTable tr th:nth-child(1),#myTable tr td:nth-child(1){
+	width: 6%;
+}
+#myTable tr th:nth-child(2),#myTable tr td:nth-child(2){
+	width: 10%;
+}
+#myTable tr th:nth-child(3),#myTable tr td:nth-child(3){
+	width: 10%;
+}
+#myTable tr th:nth-child(4),#myTable #myTable tr td:nth-child(4){
+	width: 10%;
+}
+#myTable tr th:nth-child(5),#myTable tr td:nth-child(5){
+	width: 13%;
+}
+#myTable tr th:nth-child(6),#myTable tr td:nth-child(6){
+	width: 13%;
+}
+#myTable tr th:nth-child(7),#myTable tr td:nth-child(7){
+	width: 10%;
+}
+.tablehead input:nth-child(1){
+	margin-left: 30px;
+}
+.shsadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(10,10,10,0.3);
+	display: none;
+}
+.shsadow p{
+	width: 100%;
+	text-align: right;
+}
+.shsadow p span{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 900;
+	margin:10px 20px 0 0;
+	border-radius: 5px;
+}
+#add{
+	width: 250px;
+	height: 280px;
+	margin: 0 auto;
+	padding-top: 16%;
+}
+#add table{
+	width: 250px;
+	height: 280px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+#add table tr td:nth-child(1){
+	width: 70px;
+}
+textarea{
+	resize:none;
+	border-radius: 5px;
+}
+#start,#end{
+	width: 110px;
+	background-image: url(../images/10.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+}
+/*.canda{
+	margin-right: -30px;
+	position: relative;
+	z-index: 99999;
+}*/
