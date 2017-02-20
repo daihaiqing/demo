@@ -298,7 +298,7 @@ require(['jquery','table','daterangepicker','moment','select2'], function ($) {
          .always(function() {
          	console.log("complete");
          });
-         var dai="dai";
+        // var dai="dai";
       });   
   })
 })
